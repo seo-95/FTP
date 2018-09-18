@@ -11,19 +11,19 @@ The code contains references to sockwrap.c and errlib.c created by Stevens.
 # Exchanged messages: 
 Client file request:
 ```
-GET <filename>CRLF
+|G|E|T|<filename>|CR|LF|
 ```
 Client quit:
 ```
-QUITCRLF
+|Q|U|I|T|CR|LF|
 ```
 Server error:
 ```
--ERRCRLF
+|-|E|R|R|CR|LF|
 ```
 Server send the following message after the request (if everything is ok):
 ```
-+ O K CR LF B1 B2 B3 B4 T1 T2 T3 T4 <File content>
+|+|O|K|CR|LF|B1|B2|B3|B4|T1|T2!|T3|T4|<File content>|
 ```
 Where the sequence <B1 B2 B3 B4> is the byte dimension of the file (on 4 bytes) and <T1 T2 T3 T4> is the file timestamp.
 
