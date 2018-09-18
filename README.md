@@ -8,11 +8,6 @@ The code contains references to sockwrap.c and errlib.c created by Stevens.
 <br>
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 # Exchanged messages: 
 Client file request:
 ```
