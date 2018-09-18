@@ -11,7 +11,7 @@ The code contains references to sockwrap.c and errlib.c created by Stevens.
 # Exchanged messages: 
 Client file request:
 ```
-|G|E|T|<filename>|CR|LF|
+|G|E|T| |<filename>|CR|LF|
 ```
 Client quit:
 ```
