@@ -25,7 +25,7 @@ Server send the following message after the request (if everything is ok):
 ```
 |+|O|K|CR|LF|B1|B2|B3|B4|T1|T2|T3|T4|<File content>|
 ```
-Where the sequence <B1 B2 B3 B4> is the byte dimension of the file (on 4 bytes) and <T1 T2 T3 T4> is the file timestamp.
+Where the sequence B1 B2 B3 B4 is the byte dimension of the file (on 4 bytes) and T1 T2 T3 T4 is the file timestamp.
 
 
 
